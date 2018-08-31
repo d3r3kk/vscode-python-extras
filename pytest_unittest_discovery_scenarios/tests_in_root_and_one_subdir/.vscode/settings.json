@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "${workspaceFolder}\\.venv-pytest_37\\Scripts\\python.exe",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.unitTest.pyTestEnabled": true,
+    "python.formatting.provider": "black",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+}
