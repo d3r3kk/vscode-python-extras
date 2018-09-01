@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "create_test_data",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/create_test_data.py",
+            "args":[
+                "${workspaceFolder}/../**/2plus_*",
+                "out.json"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "copy_scenario",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+    ]
+}
