@@ -25,7 +25,7 @@ Example use:
 This will create a tar file containing only the mock-up sources with path:
 `/home/user/tests/scenario_multiple_modules_in_root_folder.tar.gz`
 
-### `create_test_data.py`
+### `create_test_data.py` *(not finished)*
 Use this script to generate test data from all the scenario mock ups in this
 repository. The test data is created in JSON format and stored as a type that
 our extension unit tests can consume.
